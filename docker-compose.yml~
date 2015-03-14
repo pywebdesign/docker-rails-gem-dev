@@ -1,0 +1,13 @@
+files:
+  image: ubuntu
+  volumes:
+    - ./app:/app/yaffle
+web:  
+  build: .
+  command: /bin/bash
+  volumes_from:
+    - files
+  ports:
+    - "3000:3000"
+  links:
+    - files
