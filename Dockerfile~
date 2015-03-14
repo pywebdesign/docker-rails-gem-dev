@@ -1,7 +1,0 @@
-FROM rails
-RUN mkdir /app
-RUN mkdir /app/yaffle
-RUN mkdir /app/yaffle/vendor
-RUN mkdir /app/yaffle/vendor/bundle
-WORKDIR /app/yaffle
-ADD ./bundle.config /root/.bundle/config
