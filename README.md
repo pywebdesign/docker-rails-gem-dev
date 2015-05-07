@@ -27,7 +27,9 @@ cd in you new gem folder
 run your test with ```rake```
 
 or navigato to your dummy rails app to try out things in the console:
+
 ```cd /test/dummy```
+
 ```rails c```
 
 have fun!
