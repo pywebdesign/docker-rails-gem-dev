@@ -20,13 +20,11 @@ if it's stuck just ctrl+c and you will land in bash.
 
 It is very easy to use, simply writte a gem in the directory structure, it is exactly the same as if you did rails generate with rails plugin new.
 
-from within docker,
-
-cd in you new gem folder
+from within docker, cd in you new gem folder
 
 run your test with ```rake```
 
-or navigato to your dummy rails app to try out things in the console:
+or navigate to your dummy rails app to try out things in the console:
 
 ```cd /test/dummy```
 
